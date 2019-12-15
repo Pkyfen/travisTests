@@ -5,4 +5,6 @@ os: linux
 dist: trusty
 jdk: oraclejdk11
 
-script: ./mvnw test -B
+script:
+  - chmod +x mvn
+  - ./mvnw test -B
