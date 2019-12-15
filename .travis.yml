@@ -6,5 +6,6 @@ dist: trusty
 jdk: oraclejdk11
 
 script:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
   - chmod +x mvn
-  - ./mvnw test -B
+  - mvn test -B
