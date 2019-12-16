@@ -7,7 +7,7 @@ jdk: oraclejdk11
 
 env:
   global:
-    - JACOCO_SOURCE_PATH=src/main/java
+    - CC_TEST_REPORTER_ID=1a4f73b455ba0a04a40cf50f94faa7f1e2994ef892e6fc7e9e5916c917e8f8f3
 
 script:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
@@ -20,7 +20,4 @@ before_script:
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
 
