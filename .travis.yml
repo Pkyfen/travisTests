@@ -7,6 +7,7 @@ jdk: oraclejdk11
 
 env:
   global:
+    - CC_TEST_REPORTER_ID=1a4f73b455ba0a04a40cf50f94faa7f1e2994ef892e6fc7e9e5916c917e8f8f3
     - JACOCO_SOURCE_PATH=src/main/java
 
 script:
