@@ -1,1 +1,1 @@
-# travisTests [![Build Status](https://travis-ci.com/Pkyfen/travisTests.svg?branch=master)](https://travis-ci.com/Pkyfen/travisTests)
+# travisTests [![Build Status](https://travis-ci.com/Pkyfen/travisTests.svg?branch=master)](https://travis-ci.com/Pkyfen/travisTests) [![codecov](https://codecov.io/gh/Pkyfen/travisTests/branch/master/graph/badge.svg)](https://codecov.io/gh/Pkyfen/travisTests)
